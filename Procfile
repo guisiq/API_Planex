@@ -1,3 +1,2 @@
-web: python API/APIplanex.py
-web: node server.js
+web: python APIplanex.py
  
