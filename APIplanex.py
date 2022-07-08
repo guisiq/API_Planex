@@ -289,7 +289,7 @@ def testT(fatores,replicadas, maty):
             'H0': 0,
             't[(B - H0)/er]': tcalc,
             't crítico': tcrit,
-            'Análise da Hipótese': t_aceitacao,
+            #'Análise da Hipótese': t_aceitacao,
             'p-valor': t_pvalor_bc
         }
     )
