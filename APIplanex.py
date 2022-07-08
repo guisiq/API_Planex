@@ -286,9 +286,9 @@ def testT(fatores,replicadas, maty):
         {
             'B': matb,
             'er': er,
-            'H0': 0,
+            #'H0': 0,
             't[(B - H0)/er]': tcalc,
-            't crítico': tcrit,
+            #'t crítico': tcrit,
             #'Análise da Hipótese': t_aceitacao,
             'p-valor': t_pvalor_bc
         }
