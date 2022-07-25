@@ -281,9 +281,17 @@ def testT(fatores,replicadas, maty):
             t_aceitacao.append("Aceita-se H0")
         else:
             t_aceitacao.append("Rejeita-se H0")
+    # combinacoes idix dos betas 
+    combvariaveis2 = list()
+    for i in range(fatores+1):
+        combvariaveis2.append([i])
 
+    for i in combvariaveis:
+        for e in i:
+            combvariaveis2.append(e)
     tab_signbeta = DataFrame(
         {
+            'X':combvariaveis2,
             'B': matb,
             'er': er,
             #'H0': 0,
