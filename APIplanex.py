@@ -294,9 +294,10 @@ def testT(fatores,replicadas, maty):
             'X':combvariaveis2,
             'B': matb,
             'er': er,
-            #'H0': 0,
-            't[(B - H0)/er]': tcalc,
-            #'t crítico': tcrit,
+            'H0': 0,
+            # 't[(B - H0)/er]': tcalc,
+            't Calculado': tcalc,
+            't Crítico': tcrit,
             #'Análise da Hipótese': t_aceitacao,
             'p-valor': t_pvalor_bc
         }
